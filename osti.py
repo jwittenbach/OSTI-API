@@ -73,8 +73,7 @@ def query_API(url = "https://www.osti.gov/api/v1/records",
 
     if print_status:
         print(f"Query was successful: {r.status_code == requests.codes.ok}")
-        print(f"\nQuery made on {query_date} returned {results_count} hits and")
-        print(f"resulted in {page_count} pages of records")
+        print(f"\nQuery made on {query_date} returned {results_count} hits")
         print(f"\nURL used was {r.url}")
     
     return r.json(), results_count
