@@ -2,6 +2,7 @@ name: osti
 channels:
   - defaults 
 dependencies:
+  - python=3.6
   - appnope=0.1.0
   - asn1crypto=0.24.0
   - autopep8=1.4.3
