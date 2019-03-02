@@ -1,5 +1,4 @@
-name: root 
-python: 3.6
+name: osti 
 channels:
   - defaults 
 dependencies:
